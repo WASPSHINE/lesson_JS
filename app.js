@@ -25,26 +25,68 @@
 
 // 1. Создаём переменную numberOfFilms помещаем в нее ответы на вопросы от пользователя
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '' );
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '' );
 // 2. Создём объект personalMovieDB и помещаем в него свойства через ','
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
 // Задаём пользователю по два раза вопросы для пользователя:
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-    b = prompt ('На сколько оцените его?', ''),
-    с = prompt('Один из последних просмотренных фильмов?', ''),
-    d = prompt ('На сколько оцените его?', '');
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//     b = prompt ('На сколько оцените его?', ''),
+//     с = prompt('Один из последних просмотренных фильмов?', ''),
+//     d = prompt ('На сколько оцените его?', '');
 
 // Ответы помещаем в отдельные переменные
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[с] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[с] = d;
+//
+//
+// console.log(personalMovieDB);
 
+// Условия в JS
 
-console.log(personalMovieDB);
+// if (4 == 9) {
+//     console.log('Ок!');
+// } else {
+//     console.log('Error!');
+// };
+
+// const num = 50;
+//
+// if (num < 49) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log('To More')
+// } else {
+//     console.log('Ok!')
+// };
+
+// Запись if при помощи тернарного метода (Использование трёх аргументов)  (if ?) ( else :)
+
+// Упрощеная форма записи условий
+// (num === 50) ? console.log('Ok!') : console.log('Error');
+
+// Switch
+
+// const num = 50;
+//
+// switch (num) {
+//     case 49:
+//         console.log('Неверно');
+//         break;
+//     case 100:
+//         console.log('Неверно');
+//         break;
+//     case 51:
+//         console.log('В точку!');
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;
+// };
